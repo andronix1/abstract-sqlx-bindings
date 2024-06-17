@@ -1,0 +1,10 @@
+[package]
+name = "abstract-sqlx-bindings"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+abstract-db = { path = "../abstract-db" } 
+anyhow = "1.0.86"
+async-trait = "0.1.80"
+sqlx = { version = "0.7.3", features = ["postgres"] }
